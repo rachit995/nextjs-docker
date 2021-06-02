@@ -1,5 +1,8 @@
 import Head from 'next/head'
 import { FunctionComponent } from 'react'
+import Content from '../src/components/Content'
+import Header from '../src/components/Header'
+import Sidebar from '../src/components/Sidebar'
 
 const Home: FunctionComponent = () => {
   return (
@@ -10,12 +13,11 @@ const Home: FunctionComponent = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <h1>You can click me</h1>
-        <button className="m-4 px-4 py-2 bg-blue-600 text-white rounded-lg outline-none focus:outline-none hover:bg-blue-700 focus:ring-2 focus:ring-blue-200 focus:ring-offset-2">
-          Click Me!
-        </button>
-      </main>
+      <Header />
+      <div className="relative z-40 flex min-h-screen">
+        <Sidebar />
+        <Content />
+      </div>
 
       <footer></footer>
     </div>

@@ -1,4 +1,4 @@
-import '../styles/globals.css'
+import '../public/assets/styles/globals.css'
 import type { AppProps } from 'next/app'
 import { FunctionComponent } from 'react'
 

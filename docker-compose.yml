@@ -8,6 +8,9 @@ services:
     volumes:
       - ./pages:/app/pages
       - ./src:/app/src
-      - ./styles:/app/styles
+      - ./public:/app/public
+      - ./tailwind.config.js:/app/tailwind.config.js
+      - /app/node_modules
+      - /app/.next
     env_file:
       - ./.env
