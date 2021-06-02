@@ -8,5 +8,6 @@ services:
     volumes:
       - ./pages:/app/pages
       - ./src:/app/src
+      - ./styles:/app/styles
     env_file:
       - ./.env
