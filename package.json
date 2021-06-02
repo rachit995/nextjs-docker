@@ -8,6 +8,7 @@
     "start": "next start",
     "docker:build": "docker-compose build",
     "docker:up": "docker-compose up -d",
+    "docker:rebuild": "docker-compose up -d --build",
     "docker:down": "docker-compose down",
     "docker:stop": "docker-compose stop",
     "docker:bash": "docker exec -it client_client_1 bash",
