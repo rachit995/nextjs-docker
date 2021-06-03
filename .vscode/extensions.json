@@ -2,6 +2,8 @@
   "recommendations": [
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
-    "heybourn.headwind"
+    "heybourn.headwind",
+    "streetsidesoftware.code-spell-checker",
+    "bradlc.vscode-tailwindcss"
   ]
 }
