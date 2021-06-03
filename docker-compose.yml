@@ -4,12 +4,9 @@ services:
   client:
     build: .
     ports:
-      - "3000:3000"
+      - 3000:3000
     volumes:
-      - ./pages:/app/pages
-      - ./src:/app/src
-      - ./public:/app/public
-      - ./tailwind.config.js:/app/tailwind.config.js
+      - ./:/app
       - /app/node_modules
       - /app/.next
     env_file:
